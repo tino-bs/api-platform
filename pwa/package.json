@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "setup:dev": "yarn install",
+    "setup:build": "yarn install --prod",
+    "reset:dev": "rm -rf ./node_modules ./.next ./out ./coverage && yarn setup:dev",
+    "upgrade:dev": "rm -rf ./yarn.lock && yarn reset:dev",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
