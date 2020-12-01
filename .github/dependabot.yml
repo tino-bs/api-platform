@@ -1,0 +1,28 @@
+# Dependabot - auto dependency updates
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: "composer"
+    # Files stored in `api` directory
+    directory: "/api"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "composer-dependency-updates"
+    labels:
+      - "composer"
+      - "dependencies"
+    rebase-strategy: "auto"
+
+  - package-ecosystem: "npm"
+    # Files stored in `pwa` directory
+    directory: "/pwa"
+    schedule:
+      interval: "weekly""
+    commit-message:
+      prefix: "npm-dependency-updates"
+    labels:
+      - "npm"
+      - "dependencies"
+    rebase-strategy: "auto"
