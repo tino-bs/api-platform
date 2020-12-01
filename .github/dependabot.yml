@@ -9,7 +9,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "composer-dependency-updates"
+      prefix: "composer"
     labels:
       - "composer"
       - "dependencies"
@@ -21,7 +21,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "npm-dependency-updates"
+      prefix: "npm"
     labels:
       - "npm"
       - "dependencies"
