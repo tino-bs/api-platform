@@ -19,7 +19,7 @@ updates:
     # Files stored in `pwa` directory
     directory: "/pwa"
     schedule:
-      interval: "weekly""
+      interval: "weekly"
     commit-message:
       prefix: "npm-dependency-updates"
     labels:
