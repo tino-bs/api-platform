@@ -38,7 +38,7 @@ For detailed explanation on how things work, check out the [docs](https://api-pl
 * Benefit from Content Negotiation: [GraphQL](https://graphql.org), [JSON-LD](https://json-ld.org), [Hydra](https://hydra-cg.com),
   [HAL](https://github.com/mikekelly/hal_specification/blob/master/hal_specification.md), [JSONAPI](https://jsonapi.org/), [YAML](https://yaml.org/), [JSON](https://www.json.org/), [XML](https://www.w3.org/XML/) and [CSV](https://www.ietf.org/rfc/rfc4180.txt) are supported out of the box.
 * Enjoy the **beautiful automatically generated API documentation** ([Swagger](https://swagger.io/)/[OpenAPI](https://www.openapis.org/)).
-* Add [**a convenient Material Design administration interface**](https://api-platform.com/docs/admin) built with [React](https://reactjs.org/)
+* Maintain data with a [**administration interface**](https://api-platform.com/docs/admin) based on [React](https://reactjs.org/)
   without writing a line of code.
 * **Scaffold fully functional Progressive-Web-Apps and mobile apps** built with [Next.js](https://api-platform.com/docs/client-generator/nextjs/) (React),
 [Nuxt.js](https://api-platform.com/docs/client-generator/nuxtjs/) (Vue.js) or [React Native](https://api-platform.com/docs/client-generator/react-native/)
@@ -46,5 +46,5 @@ thanks to [the client generator](https://api-platform.com/docs/client-generator/
 * Install a development environment and deploy your project in production using **[Docker](https://api-platform.com/docs/distribution)**
 and [Kubernetes](https://api-platform.com/docs/deployment/kubernetes).
 * Easily add **[OAuth](https://oauth.net/) authentication**.
-* Create specs and tests with **[a developer friendly API testing tool](https://api-platform.com/docs/distribution/testing/)*.
+* Create specs and tests with **[a developer friendly API testing tool](https://api-platform.com/docs/distribution/testing/)**.
 
